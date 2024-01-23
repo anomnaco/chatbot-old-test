@@ -3,3 +3,4 @@ uvicorn[standard]
 openai
 tiktoken
 langchain
+astrapy==0.7.0
