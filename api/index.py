@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from api.chatbot_utils import *
+from utils.chatbot_utils import *
 import json
 
 origins = [
